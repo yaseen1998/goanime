@@ -23,8 +23,7 @@ else { alert("you choose a wrong answer " + "\n" + "try again") }
   }
   else if (name == 2) {
     var ep = prompt("which episode do you want " + "\n" + "from (1_25)")
-       document.write("<h3>your favanime :Attack on titan (score rate 8.51)<h3>"+"\n"+"<img"+ " src="+"https://an-master.net/wp-content/uploads/2020/11/Attack-on-Titan-Season-4-Release-Date-Trailer-News.jpg"+"style='height:750px ;width:750px ;'>")
-
+       document.write("<h3>your favanime :Attack on titan (score rate 8.51)<h3>"+"\n"+"<img" + " src=" + "https://static3.srcdn.com/wordpress/wp-content/uploads/2021/03/Death-Note-Characters-Ranked-by-Likability-Feature-Image-2.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5" + "style='height:750px ;width:750px ;'>")
     for (ep; ep <= 25; ep++) {
       if (ep == 25) {
         ep = "25 the end"
